@@ -129,3 +129,78 @@ html{scroll-padding-top:100px}
  .footer-links{font-size:12px}
  .site-footer small{font-size:11px}
 }
+
+/* Stronger visual readability pass */
+:root{--teal:#005C63;--muted:#3E5662;--ink:#142B38;--line:#CCD9D9;--cream:#F3F6F4;--aqua:#11BDAA}
+body{color:#142B38;font-size:18px;line-height:1.72}
+h1{font-size:clamp(48px,5.3vw,74px);line-height:1.04;letter-spacing:-.045em}
+h2,.section-heading h2,.about-copy h2,.contact-copy h2{font-size:clamp(38px,4vw,54px);line-height:1.1;letter-spacing:-.035em}
+h3{color:#10334A}
+.hero{background:#F0F5F2}
+.hero-lede{font-size:19px;color:#364F5B;line-height:1.7}
+.eyebrow{font-size:14px;color:#00545B;font-weight:800;letter-spacing:.09em}
+.primary-nav{font-size:15px;font-weight:700;color:#344D58}
+.nav-cta{border-width:2px}
+.brand-copy strong{font-size:21px}
+.brand-copy small{font-size:12px}
+.button{font-size:15px;min-height:50px}
+.hero-note{font-size:14px;color:#3F5963}
+.hero-bottom-inner{font-size:13px;font-weight:600;color:#415760}
+.section-heading>p{font-size:16px;line-height:1.65;color:#435A65}
+.services-section{background:#fff}
+.service-jump a{font-size:14px;min-height:50px;background:#F2F7F5;border-color:#B8CCCA;color:#10334A}
+.service-card{border-color:#C9D8D7;box-shadow:0 8px 24px rgba(16,51,74,.04)}
+.service-card h3{font-size:21px;line-height:1.25}
+.service-card p{font-size:16px;line-height:1.65;color:#3E5662}
+.service-card li{font-size:14px;line-height:1.55;color:#344E5A}
+.service-featured h3{color:#fff}
+.service-featured p,.service-featured li{color:#E2ECEE}
+.text-link{font-size:14px;color:#005C63}
+.service-footnote{font-size:14px;color:#465B63}
+.about-section{background:#E9F1EF}
+.about-copy>p{font-size:16px;color:#3E5662;line-height:1.75}
+.about-copy .about-lede{font-size:18px;color:#142B38}
+.credentials span{font-size:12px;color:#3E555F}
+.credentials strong{font-size:17px}
+.process-grid h3{font-size:20px}
+.process-grid p{font-size:15px;line-height:1.65;color:#3F5661}
+.process-count{font-size:13px}
+.work-section{background:#F1F4F2}
+.work-card{border-color:#CDD9D9;box-shadow:0 5px 18px rgba(16,51,74,.04)}
+.work-kicker{font-size:13px;font-weight:800;letter-spacing:.09em;opacity:1;color:#fff;background:rgba(8,31,45,.78);padding:7px 10px;border-radius:5px;top:14px;left:14px}
+.work-tag{font-size:13px;font-weight:700;letter-spacing:.02em;opacity:1;color:#fff;background:rgba(8,31,45,.78);padding:7px 11px;border-radius:16px;margin-top:10px}
+.work-meta h3{font-size:17px}
+.work-meta p{font-size:14px;color:#3D545F;line-height:1.5}
+.work-note p{font-size:15px;color:#3D545F}
+.contact-copy>p{font-size:16px;color:#DDE8EA;line-height:1.7}
+.contact-methods small{font-size:13px;color:#C3D9DD}
+.contact-methods strong{font-size:16px}
+.contact-methods>a{min-height:72px}
+.contact-card-kicker{font-size:13px}
+.contact-card-bottom{font-size:12px;color:#405660}
+.footer-brand{font-size:15px}
+.footer-brand span{font-size:13px;color:#C1D0D4}
+.footer-links{font-size:13px}
+.site-footer small{font-size:13px;color:#C1D0D4}
+@media(max-width:680px){
+ body{font-size:17px}
+ .hero h1{font-size:clamp(42px,11vw,50px);line-height:1.06}
+ .hero-lede{font-size:17px}
+ .eyebrow{font-size:11px;letter-spacing:.08em}
+ .hero-bottom-inner span{font-size:11px}
+ .hero-bottom-inner>a{font-size:12px}
+ .section-heading h2,.about-copy h2,.contact-copy h2{font-size:38px}
+ .section-heading>p{font-size:15px}
+ .service-jump a{font-size:14px}
+ .service-card h3{font-size:20px}
+ .service-card p{font-size:16px}
+ .service-card li{font-size:14px}
+ .credentials span{font-size:11px}
+ .work-kicker,.work-tag{font-size:12px}
+ .work-meta h3{font-size:17px}
+ .work-meta p{font-size:14px}
+ .contact-copy>p{font-size:16px}
+ .contact-methods strong{font-size:15px}
+ .footer-links{font-size:13px}
+ .site-footer small{font-size:12px}
+}
