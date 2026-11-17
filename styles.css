@@ -75,3 +75,57 @@ html{scroll-padding-top:100px}
  .mobile-contact:hover{background:var(--navy)}
 }
 @media(prefers-reduced-motion:reduce){.button,.work-card,.service-card,.service-jump a{transition:none}}
+
+/* Contrast and legibility refinements */
+:root{--teal:#006D75;--muted:#4D626D;--line:#D3DFDE}
+.brand-copy small{font-size:11px;letter-spacing:.16em}
+.primary-nav{font-size:14px;color:#405762}
+.eyebrow{font-size:12px;letter-spacing:.12em}
+.hero-lede{color:#465F6B}
+.hero-note{font-size:13px;color:#4F626A}
+.art-card small{font-size:12px;color:#425965}
+.art-card strong{font-size:13px}
+.art-label{font-size:12px;color:#fff;letter-spacing:.14em}
+.hero-bottom-inner{font-size:12px;color:#52636A}
+.section-heading>p{color:#52646D;font-size:15px}
+.service-number{font-size:12px;color:#60747C}
+.service-card p{font-size:15px;color:#4D626D;line-height:1.7}
+.service-card li{font-size:13px;color:#465D68;line-height:1.55}
+.service-featured p,.service-featured li{color:#D0DEE1}
+.text-link{font-size:13px}
+.service-footnote{font-size:13px;color:#53646C}
+.about-copy>p{font-size:15px;color:#4D626D}
+.credentials span{font-size:11px;color:#52636B}
+.about-stamp span{font-size:10px;letter-spacing:.12em}
+.process-count{font-size:12px}
+.process-grid p{font-size:14px;color:#52636D;line-height:1.6}
+.work-kicker{font-size:12px;color:#fff;opacity:1;letter-spacing:.12em}
+.work-tag{font-size:12px;color:#fff;opacity:1;letter-spacing:.04em}
+.work-meta h3{font-size:16px}
+.work-meta p{font-size:13px;color:#4E6069;line-height:1.5}
+.work-note p{font-size:14px;color:#4C6069}
+.contact-copy>p{font-size:15px;color:#D0DEE2}
+.contact-methods small{font-size:12px;color:#B8CFD3}
+.contact-methods strong{font-size:15px}
+.contact-card-kicker{font-size:12px;letter-spacing:.14em}
+.contact-card-bottom{font-size:11px;color:#52646C}
+.footer-brand{font-size:14px}
+.footer-brand span{font-size:12px;color:#B1C5CB}
+.footer-links{font-size:12px}
+.site-footer small{font-size:12px;color:#B1C5CB}
+@media(max-width:680px){
+ .eyebrow{font-size:10px;letter-spacing:.1em}
+ .hero-bottom-inner span{font-size:10px}
+ .hero-note{font-size:12px}
+ .service-card p{font-size:15px}
+ .service-card li{font-size:13px}
+ .credentials span{font-size:10px}
+ .work-kicker{font-size:11px}
+ .work-tag{font-size:11px}
+ .work-meta p{font-size:13px}
+ .contact-copy>p{font-size:15px}
+ .contact-methods small{font-size:12px}
+ .contact-methods strong{font-size:14px}
+ .footer-links{font-size:12px}
+ .site-footer small{font-size:11px}
+}
