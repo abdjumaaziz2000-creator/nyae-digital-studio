@@ -35,7 +35,7 @@ h1, h2 { letter-spacing: -.065em; }
 .site-header { position: sticky; z-index: 20; top: 0; background: rgba(25, 22, 19, .96); color: var(--white); border-bottom: 1px solid rgba(255,255,255,.09); backdrop-filter: blur(14px); }
 .nav-wrap { min-height: 78px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 11px; }
-.brand img { width: 46px; height: 46px; filter: brightness(0) invert(1); }
+.brand img { width: 48px; height: 48px; filter: none; }
 .brand-copy { display: grid; line-height: 1.05; }
 .brand-copy strong { color: var(--white); font: 800 20px var(--display); letter-spacing: -.05em; }
 .brand-copy small { margin-top: 5px; color: var(--gold); font-size: 10px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
@@ -183,7 +183,7 @@ h1 em, h2 em { color: var(--gold); font-style: normal; }
 .contact-methods small, .contact-methods strong { display: block; }.contact-methods small { color: #c7b5a6; font-size: 9px; }.contact-methods strong { color: var(--white); font-size: 13px; }
 .method-arrow { margin-left: auto; color: var(--gold); }
 .contact-card { min-height: 330px; display: flex; flex-direction: column; padding: 25px; border: 1px solid rgba(255,255,255,.48); border-radius: 14px; background: var(--paper-light); color: var(--ink); box-shadow: 10px 10px 0 var(--accent); }
-.contact-card-logo { width: 68px; height: 68px; display: grid; place-items: center; overflow: hidden; border-radius: 12px; background: var(--ink); }.contact-card-logo img { width: 55px; height: 55px; filter: brightness(0) invert(1); }
+.contact-card-logo { width: 68px; height: 68px; display: grid; place-items: center; overflow: hidden; border-radius: 12px; background: var(--ink); }.contact-card-logo img { width: 55px; height: 55px; filter: none; }
 .contact-card-kicker { margin: 25px 0 8px; color: var(--accent-dark); font-size: 9px; font-weight: 700; letter-spacing: .17em; }
 .contact-card-tagline { margin: 0; color: var(--ink); font: 700 28px/1.17 var(--display); letter-spacing: -.06em; }.contact-card-tagline em { color: var(--accent); font-style: normal; }
 .contact-card-bottom { display: flex; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 9px; letter-spacing: .07em; text-transform: uppercase; }
